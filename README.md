@@ -40,11 +40,8 @@ ChurnGuard is an **AI-driven customer churn prediction and intervention system**
 ## 📂 Project Structure
 churn-prediction-app/
 │
-
 ├── app.py # Home page (Streamlit landing page)
-
 ├── requirements.txt # Python dependencies
-
 │
 ├── pages/ # Multi-page Streamlit app
 │ ├── 1_Traditional_Prediction.py
@@ -87,3 +84,15 @@ streamlit run app.py
 
 Open in your browser: http://localhost:8501
 
+🚀 Future Enhancements
+
+🔗 Integration with real LLMs (OpenAI / Gemini / Llama) for smarter chatbot replies
+
+☁️ Cloud deployment (Streamlit Cloud / AWS / Docker)
+
+📬 Email/SMS churn alerts for high-risk customers
+
+👨‍💻 Author
+
+Developed by Chitrabhanu Srivastava
+📧 Contact: bhannuu031@gmail.com
