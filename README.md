@@ -38,4 +38,49 @@ ChurnGuard is an **AI-driven customer churn prediction and intervention system**
 ---
 
 ## 📂 Project Structure
+churn-prediction-app/
+│
+├── app.py # Home page (Streamlit landing page)
+├── requirements.txt # Python dependencies
+│
+├── pages/ # Multi-page Streamlit app
+│ ├── 1_Traditional_Prediction.py
+│ ├── 2_Customer_Communication_Analysis.py
+│ ├── 3_AI_Chatbot_Intervention.py
+│ └── 4_Advanced_Analytics.py
+│
+├── src/ # Core utilities
+│ ├── preprocessing.py
+│ ├── db_utils.py
+│ ├── chatbot_utils.py
+│ ├── visualization.py
+│ └── config.py
+│
+├── models/ # Trained ML models
+│ ├── churn_model.pkl
+│ ├── metrics.pkl
+│ └── feature_columns.pkl
+│
+├── database/ # SQLite database
+│ └── churn_predictions.db
+│
+└── assets/ # UI assets
+├── styles.css
+└── logo.png
+
+
+---
+
+## ⚙️ Installation & Setup
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/churnguard.git
+   cd churnguard
+Create a virtual environment & install dependencies
+pip install -r requirements.txt
+
+Run the app
+streamlit run app.py
+
+Open in your browser: http://localhost:8501
 
