@@ -40,8 +40,11 @@ ChurnGuard is an **AI-driven customer churn prediction and intervention system**
 ## 📂 Project Structure
 churn-prediction-app/
 │
+
 ├── app.py # Home page (Streamlit landing page)
+
 ├── requirements.txt # Python dependencies
+
 │
 ├── pages/ # Multi-page Streamlit app
 │ ├── 1_Traditional_Prediction.py
