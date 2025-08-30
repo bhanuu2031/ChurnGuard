@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+shap
+textblob
+matplotlib
+plotly
+sqlite3  # (built-in, no need to install)

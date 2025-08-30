@@ -1,0 +1,69 @@
+/* ===== General App Styling ===== */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.main-header {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    padding: 1.5rem;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.prediction-card {
+    background: #ffffff10;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+    border-left: 6px solid #4CAF50;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #232526, #414345);
+    color: white;
+}
+[data-testid="stSidebar"] .css-1d391kg { 
+    color: white !important;
+}
+
+/* Chat UI */
+.chat-bubble-user {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 12px 12px 0 12px;
+    margin: 6px 0;
+    text-align: right;
+}
+.chat-bubble-ai {
+    background: #f1f1f1;
+    color: #333;
+    padding: 10px;
+    border-radius: 12px 12px 12px 0;
+    margin: 6px 0;
+    text-align: left;
+}
+
+/* Metric Styling */
+div[data-testid="stMetricValue"] {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #00c896;
+}
+
+/* Buttons */
+.stButton>button {
+    border-radius: 8px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    color: white;
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+}
+.stButton>button:hover {
+    background: linear-gradient(90deg, #764ba2, #667eea);
+}
